@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Rohan Garg — research in robot navigation, semantic exploration, and learning for legged robots.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Rohan Garg</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#about">Rohan Garg</a>
+    <nav aria-label="Main navigation">
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#teaching">Teaching &amp; Honors</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="intro" id="about" aria-labelledby="name">
+      <p class="eyebrow">Robotics · Learning · Autonomy</p>
+      <h1 id="name">Rohan Garg</h1>
+      <p class="affiliation">Stanford University · Mechanical Engineering</p>
+      <p>I work on navigation and loco-manipulation for legged robots with Prof. Marco Pavone at Stanford. My research focuses on semantic exploration, GPU-native graph representations, and reinforcement learning for autonomous robots.</p>
+      <p>I studied mechanical engineering at Stanford (M.S., Robotics Specialization) and IIT Delhi (B.Tech.). Previously, I worked on autonomy at Field AI and drone safety with Prof. Somil Bansal.</p>
+      <div class="contact" aria-label="Contact and profiles">
+        <a href="mailto:rohang73@stanford.edu">Email</a>
+        <a href="https://github.com/rohangarg2001">GitHub</a>
+        <a href="https://www.linkedin.com/in/rohan-garg-26467318b/">LinkedIn</a>
+        <a href="assets/resume.pdf">CV <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section id="publications" aria-labelledby="publications-title">
+      <h2 id="publications-title">Publication</h2>
+      <article class="research-row">
+        <div class="figure graph-figure" role="img" aria-label="Illustration of a navigation graph with a highlighted route">
+          <svg viewBox="0 0 240 160" aria-hidden="true">
+            <g fill="none" stroke="#c9d9e0" stroke-width="2">
+              <path d="M24 110 61 72 91 119 124 76 160 113 209 78 188 32 143 39 124 76 96 26 61 72 30 35M61 72 124 76 143 39 188 32M91 119 160 113M124 76 209 78M160 113 188 32"/>
+            </g>
+            <path d="M24 110 61 72 124 76 143 39 188 32" fill="none" stroke="#26746f" stroke-width="4"/>
+            <g fill="#fff" stroke="#8cabb7" stroke-width="2.5">
+              <circle cx="30" cy="35" r="5"/><circle cx="96" cy="26" r="5"/><circle cx="91" cy="119" r="5"/><circle cx="160" cy="113" r="5"/><circle cx="209" cy="78" r="5"/>
+            </g>
+            <g fill="#26746f"><circle cx="24" cy="110" r="6"/><circle cx="61" cy="72" r="6"/><circle cx="124" cy="76" r="6"/><circle cx="143" cy="39" r="6"/><circle cx="188" cy="32" r="6"/></g>
+            <text x="17" y="148" fill="#52717d" font-size="10" font-family="sans-serif" letter-spacing="2">GPU-NATIVE GRAPH PLANNING</text>
+          </svg>
+        </div>
+        <div>
+          <h3>GGraph: A GPU-Accelerated Library for Graph-Based Robot Deployment and Learning</h3>
+          <p class="authors">Yash Rampuria<sup>*</sup>, <strong>Rohan Garg<sup>*</sup></strong>, Daniele Gammelli, Marco Pavone</p>
+          <p class="venue">Under review, ICRA 2027</p>
+          <p>A GPU-native graph library for robot deployment and scalable learning, building navigation graphs from local terrain maps with millions of nodes and edges.</p>
+          <div class="resource-links"><a href="https://arxiv.org/abs/2610.28953">arXiv</a><a href="https://arxiv.org/pdf/2610.28953">PDF</a></div>
+        </div>
+      </article>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Selected project</h2>
+      <article class="research-row">
+        <div class="figure project-figure" aria-hidden="true"><span class="project-label">STANFORD × BERKELEY</span><span class="project-name">TIAMAT</span><span class="project-result">DARPA CHALLENGE · 2ND PLACE</span></div>
+        <div>
+          <h3>DARPA TIAMAT · GoldenGait</h3>
+          <p class="venue">Stanford–Berkeley collaboration · 2026</p>
+          <p>Developed autonomy for semantic exploration on legged robots as part of the team's second-place DARPA TIAMAT submission.</p>
+          <p>My work includes GPU-native navigation graphs and GNN exploration policies trained with RL that outperform state-of-the-art exploration planners by 20%. I am also developing agentic and RL loco-manipulation policies to identify and move semantically appropriate objects.</p>
+          <div class="resource-links"><a href="https://github.com/GoldenGait">Project &amp; code <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </article>
+    </section>
+
+    <section id="teaching" aria-labelledby="teaching-title">
+      <h2 id="teaching-title">Teaching &amp; Honors</h2>
+      <div class="teaching-honors">
+        <div>
+          <h3>Course Assistant · Stanford</h3>
+          <ul class="course-list">
+            <li><span>CS238</span> Decision Making under Uncertainty</li>
+            <li><span>CS234</span> Reinforcement Learning</li>
+            <li><span>AA212</span> Advanced Feedback Control Design</li>
+            <li><span>CS237A</span> Principles of Robot Autonomy I</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Honors</h3>
+          <ul class="honors-list">
+            <li><span class="year">2026</span><div>NASA Edge Autonomy Challenge winner<span class="detail">RoboHacks, hosted by Y Combinator</span></div></li>
+            <li><span class="year">2026</span><div>DARPA TIAMAT · 2nd place<span class="detail">Stanford–Berkeley team · $750k prize</span></div></li>
+            <li><span class="year">2023</span><div>Man Mohan Suri Award<span class="detail">Best Undergraduate Thesis, Mechanical Engineering, IIT Delhi</span></div></li>
+            <li><span class="year">2017</span><div>National Talent Search Scholarship<span class="detail">Government of India</span></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><span>Rohan Garg</span><a href="mailto:rohang73@stanford.edu">Get in touch <span aria-hidden="true">↗</span></a></footer>
+</body>
+</html>
